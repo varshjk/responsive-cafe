@@ -17,6 +17,7 @@ section{
 
 img{
     width: 100%;
+    
 }
 
 
@@ -141,6 +142,29 @@ header i{
     align-items: center;
     gap: 1.5rem;
     
+}
+
+
+.home-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-img img{
+    animation: blinker 5s linear infinite;
+    align-items: center;
+
+
+}
+
+
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+      }
+  
+ 
 }
 
 
