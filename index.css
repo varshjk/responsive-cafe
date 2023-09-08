@@ -257,6 +257,7 @@ header i{
     background: rgb(139,69,19);
     border-radius: 5px;
     font-weight: 500;
+    font-size: x-small;
 }
 
 .products-container .box .content a{
@@ -265,6 +266,7 @@ header i{
     border: 2px solid rgb(139,69,19);
     border-radius: 4px;
     text-transform: uppercase;
+    font-size: x-small;
 }
 
 .products-container .box .content a:hover{
@@ -481,6 +483,12 @@ text-align: center;
         grid-template-columns: 100%;
 
     
+    }
+    .customer-container{
+        grid-template-columns: 100%;
+    }
+    .about{
+        grid-template-columns: 100%;
     }
  
 }
